@@ -38,5 +38,7 @@ cargo build --release
 **Q:** Why not write this in C?\
 **A:** Because I love Rust.
 
+---
+
 <sup>1</sup> Black Screen of Death on Windows 11\
 <sup>2</sup> Green Screen of Death on Insider Preview builds
