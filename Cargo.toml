@@ -3,4 +3,8 @@ name = "bsod-rs"
 version = "0.1.0"
 edition = "2024"
 
-[dependencies]
+[profile.dev]
+panic = "abort"
+
+[profile.release]
+panic = "abort"
