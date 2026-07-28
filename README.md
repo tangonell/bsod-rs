@@ -11,7 +11,7 @@ This project is intended for educational purposes only.
 - **Blazingly fast:** Rust go brrr
 - **Memory unsafety:** 0% safe code
 - **No dependencies:** No crates, no std
-- **Tiny size:** 12.0KiB (release build)
+- **Tiny size:** 10.0KiB (release build)
 
 ## How it works
 This project uses undocumented `ntdll` functions (`RtlAdjustPrivilege` and `NtRaiseHardError`)
