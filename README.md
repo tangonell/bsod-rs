@@ -18,14 +18,14 @@ This project uses undocumented `ntdll` functions (`RtlAdjustPrivilege` and `NtRa
 via FFI to raise a BSoD<sup>2</sup>.
 
 ## Size optimization
-See `Cargo.toml`.
+None necessary. Some flags were added to `Cargo.toml`, but they have no effect in this case.
 
 ## Building from source
 ```shell
 cargo build --release
 ```
 
-## Troubleshooting
+## FAQ
 **Q:** Why has my machine crashed?\
 **A:** It's working as intended.
 
