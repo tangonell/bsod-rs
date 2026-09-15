@@ -12,6 +12,7 @@ This project is intended for educational purposes only.
 - **Memory unsafety:** 0% safe code
 - **No dependencies:** No crates, no std
 - **Tiny size:** 10.0KiB (release build)
+- **Bop bep:** Computer deivce go blue<sup>1</sup><sup>2</sup> and bop bep
 
 ## How it works
 This project uses undocumented `ntdll` functions (`RtlAdjustPrivilege` and `NtRaiseHardError`)
@@ -33,6 +34,9 @@ cargo build --release
 **A:** No.
 
 **Q:** Is this malware?\
+**A:** No.
+
+**Q:** Is this a game?\
 **A:** No.
 
 **Q:** Why not write this in C?\
